@@ -1,29 +1,3 @@
-/.dub/
-lib/
-build*/
-
-libs/
-out/
-
-.dub/
-.vscode/
-
-dub.selections.json
-
-*.exp
-*.lib
-
-#Avoid outputs being pushed
-bindbc-imgui
-bindbc-imgui.exe
-bindbc-imgui.dll
-bindbc-imgui-test
-bindbc-imgui-test.exe
-
-#Also on Linux
-libbindbc-imgui.so
-libbindbc-imgui.a
-
-imgui.ini
-
-.DS_Store
+examples/helloworld/freetype.dll
+examples/helloworld/dub.selections.json
+examples/helloworld/imgui.ini
